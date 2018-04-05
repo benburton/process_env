@@ -1,0 +1,15 @@
+{
+  "name": "process_env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "entry": "src/index.js",
+  "scripts": {
+    "build": "node_modules/webpack/bin/webpack.js --config=webpack.config.js",
+    "test": "node_modules/jasmine/bin/jasmine.js"
+  },
+  "dependencies": {
+    "jasmine": "^3.1.0",
+    "webpack": "^1.13.1"
+  }
+}
